@@ -1,7 +1,7 @@
 # Objektinio programavimo užduotis nr. 3
 ## Vector klasės kūrimas bei eksperimentiniai jos tyrimai 
 ## Versijos
-###[v1.0](https://github.com/ignaspangonis/ObjektinisProgramavimas-4/releases/tag/v1.0)
+### [v1.0](https://github.com/ignaspangonis/ObjektinisProgramavimas-4/releases/tag/v1.0)
 
 ### Spartos analizės rezultatai:
 1. Analizei pasitelkti std::vector ir mano sukurtas Vector konteineriai. Palyginama, kiek  laiko užtrunka std::vector tipo ir Vector tipo tuščių vektorių užpildymas, naudojant push_back() funkciją:
