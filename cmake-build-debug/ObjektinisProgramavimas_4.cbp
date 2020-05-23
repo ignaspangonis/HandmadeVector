@@ -109,28 +109,28 @@
 		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/README.md">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.cpp">
-			<Option target="ObjektinisProgramavimas_4"/>
-		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.h">
-			<Option target="ObjektinisProgramavimas_4"/>
-		</Unit>
 		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Vector.h">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.cpp">
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/Student.cpp">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.h">
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/Student.h">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.cpp">
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/container.cpp">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.h">
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/container.h">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
-		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/main.cpp">
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/func.cpp">
+			<Option target="ObjektinisProgramavimas_4"/>
+		</Unit>
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/func.h">
+			<Option target="ObjektinisProgramavimas_4"/>
+		</Unit>
+		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/main.cpp">
 			<Option target="ObjektinisProgramavimas_4"/>
 		</Unit>
 		<Unit filename="D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/CMakeLists.txt">

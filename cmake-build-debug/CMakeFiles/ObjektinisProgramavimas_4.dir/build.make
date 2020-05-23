@@ -56,72 +56,72 @@ include CMakeFiles/ObjektinisProgramavimas_4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
-CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\main.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\main.cpp"
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\main.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\main.cpp"
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\main.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\main.cpp.i
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\main.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\src\main.cpp.i
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\main.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\main.cpp.s
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\main.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\main.cpp.s
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
-CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj: ../container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\container.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\container.cpp"
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj: ../src/container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\container.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\container.cpp"
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\container.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\container.cpp.i
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\container.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\src\container.cpp.i
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\container.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\container.cpp.s
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\container.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\container.cpp.s
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
-CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj: ../func.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\func.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\func.cpp"
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj: ../src/func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\func.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\func.cpp"
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\func.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\func.cpp.i
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\func.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\src\func.cpp.i
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\func.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\func.cpp.s
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\func.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\func.cpp.s
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
-CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj: ../Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\Student.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\Student.cpp"
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj: CMakeFiles/ObjektinisProgramavimas_4.dir/flags.make
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj: ../src/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\Student.cpp.obj -c "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\Student.cpp"
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\Student.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\Student.cpp.i
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\Student.cpp" > CMakeFiles\ObjektinisProgramavimas_4.dir\src\Student.cpp.i
 
-CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\Student.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\Student.cpp.s
+CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data\code\c++\OP 3\ObjektinisProgramavimas-4\src\Student.cpp" -o CMakeFiles\ObjektinisProgramavimas_4.dir\src\Student.cpp.s
 
 # Object files for target ObjektinisProgramavimas_4
 ObjektinisProgramavimas_4_OBJECTS = \
-"CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj" \
-"CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj" \
-"CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj" \
-"CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj"
+"CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj" \
+"CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj" \
+"CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj" \
+"CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj"
 
 # External object files for target ObjektinisProgramavimas_4
 ObjektinisProgramavimas_4_EXTERNAL_OBJECTS =
 
-ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj
-ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj
-ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj
-ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj
+ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj
+ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj
+ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj
+ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj
 ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/build.make
 ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/linklibs.rsp
 ObjektinisProgramavimas_4.exe: CMakeFiles/ObjektinisProgramavimas_4.dir/objects1.rsp

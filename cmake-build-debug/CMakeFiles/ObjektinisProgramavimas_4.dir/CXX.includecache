@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.cpp
+Student.h
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.h
+
 D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.h
 string
 -
@@ -58,7 +62,15 @@ memory
 iterator
 -
 
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.cpp
+container.h
 D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.h
+
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.h
+func.h
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.h
+
+D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.cpp
 func.h
 D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.h
 

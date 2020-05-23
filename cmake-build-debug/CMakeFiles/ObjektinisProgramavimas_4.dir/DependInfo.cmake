@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/Student.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj"
-  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/container.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj"
-  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/func.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj"
-  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/main.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj"
+  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/Student.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj"
+  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/container.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj"
+  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/func.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj"
+  "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/src/main.cpp" "D:/Data/code/c++/OP 3/ObjektinisProgramavimas-4/cmake-build-debug/CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj"
-  "CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj"
-  "CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj"
-  "CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj"
+  "CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj"
+  "CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj"
+  "CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj"
+  "CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj"
   "ObjektinisProgramavimas_4.exe"
   "ObjektinisProgramavimas_4.exe.manifest"
   "ObjektinisProgramavimas_4.pdb"

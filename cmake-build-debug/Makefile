@@ -122,113 +122,113 @@ ObjektinisProgramavimas_4/fast:
 	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/build
 .PHONY : ObjektinisProgramavimas_4/fast
 
-Student.obj: Student.cpp.obj
+src/Student.obj: src/Student.cpp.obj
 
-.PHONY : Student.obj
-
-# target to build an object file
-Student.cpp.obj:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.obj
-.PHONY : Student.cpp.obj
-
-Student.i: Student.cpp.i
-
-.PHONY : Student.i
-
-# target to preprocess a source file
-Student.cpp.i:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.i
-.PHONY : Student.cpp.i
-
-Student.s: Student.cpp.s
-
-.PHONY : Student.s
-
-# target to generate assembly for a file
-Student.cpp.s:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/Student.cpp.s
-.PHONY : Student.cpp.s
-
-container.obj: container.cpp.obj
-
-.PHONY : container.obj
+.PHONY : src/Student.obj
 
 # target to build an object file
-container.cpp.obj:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.obj
-.PHONY : container.cpp.obj
+src/Student.cpp.obj:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.obj
+.PHONY : src/Student.cpp.obj
 
-container.i: container.cpp.i
+src/Student.i: src/Student.cpp.i
 
-.PHONY : container.i
+.PHONY : src/Student.i
 
 # target to preprocess a source file
-container.cpp.i:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.i
-.PHONY : container.cpp.i
+src/Student.cpp.i:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.i
+.PHONY : src/Student.cpp.i
 
-container.s: container.cpp.s
+src/Student.s: src/Student.cpp.s
 
-.PHONY : container.s
+.PHONY : src/Student.s
 
 # target to generate assembly for a file
-container.cpp.s:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/container.cpp.s
-.PHONY : container.cpp.s
+src/Student.cpp.s:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/Student.cpp.s
+.PHONY : src/Student.cpp.s
 
-func.obj: func.cpp.obj
+src/container.obj: src/container.cpp.obj
 
-.PHONY : func.obj
+.PHONY : src/container.obj
 
 # target to build an object file
-func.cpp.obj:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.obj
-.PHONY : func.cpp.obj
+src/container.cpp.obj:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.obj
+.PHONY : src/container.cpp.obj
 
-func.i: func.cpp.i
+src/container.i: src/container.cpp.i
 
-.PHONY : func.i
+.PHONY : src/container.i
 
 # target to preprocess a source file
-func.cpp.i:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.i
-.PHONY : func.cpp.i
+src/container.cpp.i:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.i
+.PHONY : src/container.cpp.i
 
-func.s: func.cpp.s
+src/container.s: src/container.cpp.s
 
-.PHONY : func.s
+.PHONY : src/container.s
 
 # target to generate assembly for a file
-func.cpp.s:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/func.cpp.s
-.PHONY : func.cpp.s
+src/container.cpp.s:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/container.cpp.s
+.PHONY : src/container.cpp.s
 
-main.obj: main.cpp.obj
+src/func.obj: src/func.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/func.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/func.cpp.obj:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.obj
+.PHONY : src/func.cpp.obj
 
-main.i: main.cpp.i
+src/func.i: src/func.cpp.i
 
-.PHONY : main.i
+.PHONY : src/func.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/func.cpp.i:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.i
+.PHONY : src/func.cpp.i
 
-main.s: main.cpp.s
+src/func.s: src/func.cpp.s
 
-.PHONY : main.s
+.PHONY : src/func.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/func.cpp.s:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/func.cpp.s
+.PHONY : src/func.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles\ObjektinisProgramavimas_4.dir\build.make CMakeFiles/ObjektinisProgramavimas_4.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -239,18 +239,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ObjektinisProgramavimas_4
 	@echo ... edit_cache
-	@echo ... Student.obj
-	@echo ... Student.i
-	@echo ... Student.s
-	@echo ... container.obj
-	@echo ... container.i
-	@echo ... container.s
-	@echo ... func.obj
-	@echo ... func.i
-	@echo ... func.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Student.obj
+	@echo ... src/Student.i
+	@echo ... src/Student.s
+	@echo ... src/container.obj
+	@echo ... src/container.i
+	@echo ... src/container.s
+	@echo ... src/func.obj
+	@echo ... src/func.i
+	@echo ... src/func.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

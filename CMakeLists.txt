@@ -12,4 +12,4 @@ add_executable(ObjektinisProgramavimas_4
         .gitattributes
         .gitignore
         LICENSE
-        README.md main.cpp container.cpp container.h func.cpp func.h Student.cpp Student.h Vector.h)
+        README.md src/main.cpp src/container.cpp src/container.h src/func.cpp src/func.h src/Student.cpp src/Student.h Vector.h)

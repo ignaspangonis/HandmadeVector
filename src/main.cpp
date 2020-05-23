@@ -2,6 +2,14 @@
 //#include "Student.h"
 
 int main() {
+
+
+    //Vector<int> vec = { 1, 2, 3};
+    vector<int> vec = { 1, 2, 3 };
+    cout << vec.capacity();
+    return 1;
+
+
     using hrClock = std::chrono::high_resolution_clock;
     hrClock::time_point start, end;
     std::chrono::duration<double> elapsed{};
@@ -15,12 +23,15 @@ int main() {
              << std::endl;
         cin >> yes;
     }
+
+
+
     if (yes) {
 
         long long int sz = 10000;  // 100000, 1000000, 10000000, 100000000
         for (; sz <= 100000000; sz*=10) {
             start = hrClock::now();
-            std::vector<int> v;
+            vector<int> v;
             for (long long int i = 1; i <= sz; ++i){
                 v.push_back(i);
             }
