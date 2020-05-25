@@ -2,14 +2,16 @@
 //#include "Student.h"
 
 int main() {
-
-
-    //Vector<int> vec = { 1, 2, 3};
-    vector<int> vec = { 1, 2, 3 };
-    cout << vec.capacity();
-    return 1;
-
-
+    /*  // VEKTOR TESTAI
+        Vector<int> vec = { 1, 2, 3 };
+        cout << vec.capacity() << endl;
+        vec.resize(2);
+        cout << vec.capacity() << endl;
+        cout << vec.size() << endl;
+        vec.erase(
+        return 1;
+    */
+    cout << "Si programa skirta testuoti std::vector implementacija - Vector" << endl;
     using hrClock = std::chrono::high_resolution_clock;
     hrClock::time_point start, end;
     std::chrono::duration<double> elapsed{};
@@ -24,10 +26,7 @@ int main() {
         cin >> yes;
     }
 
-
-
     if (yes) {
-
         long long int sz = 10000;  // 100000, 1000000, 10000000, 100000000
         for (; sz <= 100000000; sz*=10) {
             start = hrClock::now();
@@ -39,24 +38,38 @@ int main() {
             elapsed = end - start;
             cout << "std::vector<int> laikas su " << sz << " irasu: " << elapsed.count() << " sec." << endl;
         }
-
-        // cout << "std::vector" << oof << endl;
-
         sz = 10000;  // 100000, 1000000, 10000000, 100000000
         for (; sz <= 100000000; sz*=10) {
             start = hrClock::now();
             Vector<int> v;
-            for (long long int i = 1; i <= sz; ++i){
+            for (long long int i = 1; i <= sz; ++i) {
                 v.push_back(i);
             }
             end = hrClock::now();
             elapsed = end - start;
             cout << "Vector<int> laikas su " << sz << " irasu: " << elapsed.count() << " sec." << endl;
         }
+
+        cout << "\nVykdomas perskirstymu testas su 100000000 irasu...\n";
+        vector<int> v;
+        int perskirstymai = 0;
+        for (long long int i = 1; i <= 100000000; i++) {
+            v.push_back(i);
+            if (v.capacity() == v.size())
+                perskirstymai++;
+        }
+        cout << "std::vector<int> perskirstymu skaicius: " << perskirstymai << endl;
+        Vector<int> v2;
+        perskirstymai = 0;
+        for (long long int i = 1; i <= 100000000; i++) {
+            v2.push_back(i);
+            if (v2.capacity() == v2.size())
+                perskirstymai++;
+        }
+        cout << "Vector<int> perskirstymu skaicius: " << perskirstymai << endl;
     }
 
-
-
+    cout << "\nPradedame OOP 2 uzduoties v2.0 programos testa - lyginsime Vector su std::vector \n";
     int cycle;
     int y = 100;
     bool gen;

@@ -14,9 +14,8 @@ void ReadSplitGenerateV(vector<Student> &stud, std::ofstream &fail, std::ofstrea
     vector<Student> geri;
     vector<Student> blogi;
     Student temp;
-    cout << endl << endl;
     bool med;
-    cout << "Norite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?" << endl;
+    cout << "\nNorite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?" << endl;
     cin >> med;
     while (!cin) {
         cin.clear(); // reset failbit
@@ -218,9 +217,8 @@ void ReadSplitGenerateV2(Vector<Student> &stud, std::ofstream &fail, std::ofstre
     Vector<Student> geri;
     Vector<Student> blogi;
     Student temp;
-    cout << endl << endl;
     bool med;
-    cout << "Norite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?" << endl;
+    cout << "\nNorite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?" << endl;
     cin >> med;
     while (!cin) {
         cin.clear(); // reset failbit
