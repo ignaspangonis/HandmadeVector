@@ -1,5 +1,6 @@
 # Vector klasės implementacija bei tyrimai 
-#### Programos tikslas - sukurti savadarbę std::vector implementaciją ir ją palyginti su originalia. Nuo čia implementacija bus vadinama tiesiog "Vector".
+**Programos tikslas** - sukurti savadarbę std::vector implementaciją ir ją palyginti su originalia. Nuo čia implementacija bus vadinama tiesiog "Vector".
+Sukurtoji Vector klasė yra *Vector.h* faile, kiti testavimui reikalingi failai - */src* aplanke.
 ## Versijos
 ### [v1.0](https://github.com/ignaspangonis/ObjektinisProgramavimas-4/releases/tag/v1.0)
 
