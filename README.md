@@ -1,5 +1,4 @@
-# Objektinio programavimo užduotis nr. 3
-## Vector klasės kūrimas bei eksperimentiniai jos tyrimai 
+# Vector klasės implementacija bei tyrimai 
 ## Versijos
 ### [v1.0](https://github.com/ignaspangonis/ObjektinisProgramavimas-4/releases/tag/v1.0)
 
