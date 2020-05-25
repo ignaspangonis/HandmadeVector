@@ -1,4 +1,5 @@
 # Vector klasės implementacija bei tyrimai 
+#### Programos tikslas - sukurti savadarbę std::vector implementaciją ir ją palyginti su originalia. Nuo čia implementacija bus vadinama tiesiog "Vector".
 ## Versijos
 ### [v1.0](https://github.com/ignaspangonis/ObjektinisProgramavimas-4/releases/tag/v1.0)
 
@@ -13,6 +14,8 @@
 | 10000000     | 0.240359    | 0.228363 |
 | 100000000    | 2.40095     | 2.21571  |
 
+*Kaip matyti, sukurta Vector klasė yra greitesnė.*
+
 2. Lyginami konteinerių (Vector ir std::vector) atminties perskirstymų skaičiai užpildant 100000000 elementų su push_back() funkcija. Perskirstymas įvyksta tada, kai yra patenkinama sąlyga: capacity() == size():
 
 | Konteineris | Perskirtymai |
@@ -20,12 +23,16 @@
 | std::vector | 27           |
 | Vector      | 27           |
 
+*Perskirstymų skaičius nesiskiria.*
+
 3. Lyginama, kiek laiko užtrunka [programos](https://github.com/ignaspangonis/ObjektinisProgramavimas-3/releases/tag/v2.0) veikimas (*studentų nuskaitymas iš failo ir studentų skirstymas į dvi grupes*) naudojant std::vector ir Vector realizacijas pasitelkiant duomenų failą su 100000 studentų įrašų:
 
 | Konteineris | Studentų nuskaitymas iš failo | Studentų skirstymas į dvi grupes |
 |-------------|-------------------------------|----------------------------------|
 | std::vector | 0.78617                       | 0.139654                         |
 | Vector      | 0.80183                       | 0.139626                         |
+
+*std::vector šiek tiek greitesnė įrašų nuskaityme iš failo į vektorių, bet skirtumas nežymus.*
 
 ### 5 funkcijų pavyzdžiai:
 1. **operator!=(const Vector<T> &v)** - palyginimo operatoriaus funkcija, per parametrą perduodanti dešinėje operatoriaus pusėje esantį vektorių. Grąžina *true*, jei lyginamų vektorių užimamčių elementų dydžiai nelygūs arba bent vienas elementas su tuo pačiu indeksu nesutampa, kitu atveju grąžina *false*.
