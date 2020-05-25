@@ -13,7 +13,7 @@
 template<class T>
 class Vector {
 public:
-    typedef T *iterator; // paprastos rodyklės turi visas random_access_iterator savybes
+    typedef T *iterator;
     typedef const T *const_iterator;
     typedef size_t size_type;
     typedef T value_type;
@@ -24,11 +24,6 @@ public:
     typedef typename std::allocator_traits<allocator_type>::const_pointer const_pointer;
     typedef std::reverse_iterator<iterator> reverse_iterator;
     typedef std::reverse_iterator<const_iterator> const_reverse_iterator;
-
-//    void reallocate(const unsigned int &A, const unsigned int &B) {
-//        avail = A;
-//        limit = B;
-//    }
 
     T &at(size_type it) {
         return itt[it];
@@ -43,9 +38,7 @@ public:
         else
             throw std::logic_error("Empty container");
     }
-
     T *data() noexcept;
-
 
 
     /// rule of 3
