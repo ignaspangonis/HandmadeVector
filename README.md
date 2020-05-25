@@ -25,7 +25,7 @@
 | Konteineris | Studentų nuskaitymas iš failo | Studentų skirstymas į dvi grupes |
 |-------------|-------------------------------|----------------------------------|
 | std::vector | 0.78617                       | 0.139654                         |
-| Vector      | 0.812839                      | 0.139626                         |
+| Vector      | 0.80183                       | 0.139626                         |
 
 5 funkcijų pavyzdžiai:
 1. operator!=
@@ -92,6 +92,41 @@ void Vector<T>::assign(size_type n, const value_type& val) {
 }
 ```
 
+## Naudojimosi programa pavyzdys (v1.0):
+```
+Si programa skirta testuoti std::vector implementacija - Vector
+Ar norite testuoti std::vector ir Vector su int (1), ar ne (0)?
+0
+
+Pradedame OOP 2 uzduoties v2.0 programos testa - lyginsime Vector su std::vector
+Ar norite generuoti naujus failus, jei dar negeneravote (1), ar ne (0)?
+0
+Failu dydis - nuo 1000 studentu, su kiekvienu failu didinant si skaiciu 10 kartu.
+Kiek failu skaityti ir/ar generuoti (1-5)?:
+4
+std::vector:
+Norite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?
+0
+Studentu nuskaitymo is failo (su 1000 irasu) laikas: 0.009015 sec.
+Failo (su 1000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.002034 sec.
+Studentu nuskaitymo is failo (su 10000 irasu) laikas: 0.081755 sec.
+Failo (su 10000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.014959 sec.
+Studentu nuskaitymo is failo (su 100000 irasu) laikas: 0.795851 sec.
+Failo (su 100000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.136635 sec.
+Studentu nuskaitymo is failo (su 1000000 irasu) laikas: 8.14095 sec.
+Failo (su 1000000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 1.40028 sec.
+Vector:
+Norite skaiciuoti pagal vidurki (iveskite 0), ar mediana (iveskite 1)?
+0
+Studentu nuskaitymo is failo (su 1000 irasu) laikas: 0.008938 sec.
+Failo (su 1000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.001025 sec.
+Studentu nuskaitymo is failo (su 10000 irasu) laikas: 0.080822 sec.
+Failo (su 10000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.014959 sec.
+Studentu nuskaitymo is failo (su 100000 irasu) laikas: 0.80183 sec.
+Failo (su 100000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 0.141624 sec.
+Studentu nuskaitymo is failo (su 1000000 irasu) laikas: 7.99418 sec.
+Failo (su 1000000 irasu) rusiavimo i dvi grupes laikas (2 strategija, geresni algoritmai): 1.37034 sec.
+```
 
 ## Testavimo sistemos parametrai:
 1. Procesorius Intel Core i5-7300HQ CPU @ 2.50 GHz
